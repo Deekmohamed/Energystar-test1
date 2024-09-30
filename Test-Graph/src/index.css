@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 0 20px;
+}
+
+.chart-container {
+  width: 90%; /* Increase width to 90% for a more prominent chart */
+  max-width: 1200px; /* Set a larger maximum width for larger screens */
+  padding: 40px; /* Increased padding for breathing room */
+  background-color: #fff;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1); /* Increase shadow depth for better contrast */
+  border-radius: 10px;
+  margin: 20px 0;
+}
+
+@media (min-width: 768px) {
+  .chart-container {
+    padding: 50px; /* Larger padding on larger screens */
+  }
+}
